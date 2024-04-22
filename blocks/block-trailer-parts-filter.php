@@ -86,6 +86,8 @@ if($tpf_title || $tpf_sub_title || $tpf_desc || $tpf_prd_parts_filter){
                   <?php } ?>
                   <?php
                       $parts_ex_id[] = strval($trailer_part);
+                      $parts_ex_id[] = '15';
+
                       $cat_terms = get_terms( array(
                           'taxonomy' => 'product_cat',
                           'hide_empty' => false,

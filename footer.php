@@ -100,7 +100,7 @@
 			<div class="footer-bottom py-42 xl:py-22 bg-bright-red">
 				<div class="container">
 					<div class="footer-links">
-						<div class="cl-left-links md:text-center">
+						<div class="cl-left-links md:text-center cp">
 							<ul>
 								<?php echo $footer_copyright; ?>
 							</ul>

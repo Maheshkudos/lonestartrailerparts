@@ -216,3 +216,7 @@ function disable_plugin_updates( $value ) {
    return $value;
 }
 add_filter( 'site_transient_update_plugins', 'disable_plugin_updates' );
+
+function demo(){
+   echo "hello";
+}

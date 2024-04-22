@@ -186,3 +186,8 @@ function lonestar_acf_block_render_callback( $block ) {
 		include get_theme_file_path( "/blocks/block-{$slug}.php" );
 	}
 }
+
+function acffunc(){
+    echo "hello123";
+}
+add_action( 'init', 'acffunc' );

@@ -1,0 +1,182 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+html {
+  box-sizing: border-box;
+  @apply overflow-x-hidden;
+}
+body {
+  @apply m-0 p-0 text-20 xl:text-18 md:text-16 text-black overflow-x-hidden font-fs-rt;
+}
+
+.container {
+  max-width: 1200px;
+  @apply px-15 m-auto w-full lg:px-25;
+}
+
+h1,
+.h1 {
+  @apply text-56 xl:text-50 md:text-42;
+}
+
+h2,
+.h2,
+h3.h2-size {
+  @apply text-52 xl:text-45 md:text-35;
+}
+
+h3,
+.h3 {
+  @apply text-34 xl:text-30 md:text-27;
+}
+
+h4,
+.h4 {
+  @apply text-24 xl:text-22 md:text-20;
+}
+
+h5,
+.h5 {
+  @apply text-20 md:text-18;
+}
+
+h6,
+.h6 {
+  @apply text-18 md:text-14;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  @apply mb-25 font-fs-lt font-semibold text-black capitalize lg:mb-10;
+}
+
+b,
+strong {
+  @apply font-bold;
+}
+
+p {
+  @apply pb-0 mb-20 last:mb-0 empty:hidden font-light;
+  a {
+    @apply text-air-force-blue hover:text-bright-red;
+  }
+}
+
+a {
+  @apply text-air-force-blue transition-all hover:text-black;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+  &:focus,
+  &:focus-visible {
+    @apply text-air-force-blue;
+    transition: all .3s ease-in-out;
+  }
+}
+
+.site-main {
+  a {
+    &.blue-hover {
+      @apply text-white hover:text-bright-red;
+    }
+  }
+}
+
+
+.sub-txt {
+  @apply uppercase font-fs-rt text-20 font-medium;
+  letter-spacing: 4px;
+}
+
+.lines {
+  &::before {
+    content: '';
+    @apply absolute top-0 w-full h-full bg-no-repeat bg-cover;
+  }
+}
+
+img {
+  @apply max-w-full;
+  height: auto;
+}
+
+::selection {
+  @apply bg-bright-red text-white;
+}
+::-moz-selection {
+  @apply bg-bright-red text-white;
+}
+
+.full-width-layout {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
+.left-move-column {
+  margin-left: calc(-50vw + 50%);
+}
+
+.right-move-column {
+  margin-right: calc(-50vw + 50%);
+}
+
+.grid-left-move-column {
+  margin-left: calc(-50vw + 50%);
+  width: 50vw;
+}
+
+.grid-right-move-column {
+  margin-right: calc(-50vw + 50%);
+  width: 50vw;
+}
+
+.left-col-move {
+  margin-left: calc(-50vw + 100%);
+}
+
+.left-move{
+  margin-left: calc(-50vw + 585px);
+  @screen lg {
+    margin-left: 0;
+  }
+}
+
+.right-move{
+  margin-right: calc(-50vw + 585px);
+  @media(max-width: 1200px){
+    margin-right: 0;
+  }
+}
+
+
+
+.privacy-policy {
+  .general-section {
+    ul {
+      li {
+        @apply  relative  font-light after:content-[''] after:absolute after:top-5 after:left-0 after:w-20 after:h-20 after:bg-[url('/wp-content/uploads/2024/04/tringle-right-dotblue.png')] after:bg-no-repeat after:bg-contain;
+      }
+    }
+    p{
+      a{
+        @apply font-normal;
+      }
+    }
+  }
+}
+
+

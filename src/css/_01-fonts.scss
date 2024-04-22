@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Font Awesome 6 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("../fonts/fontawesome/fa-brands-400.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Font Awesome 6 Free';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("../fonts/fontawesome/fa-regular-400.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Font Awesome 6 Free';
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url("../fonts/fontawesome/fa-solid-900.woff2") format("woff2");
+}
+
+.fas,
+.fa-solid {
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-display: block;
+    src: url("../fonts/roboto/Roboto-Medium.woff") format("woff"),
+        url("../fonts/roboto/Roboto-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("../fonts/roboto/Roboto-Regular.woff") format("woff"),
+        url("../fonts/roboto/Roboto-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-display: block;
+    src: url("../fonts/roboto/Roboto-Light.woff") format("woff"),
+        url("../fonts/roboto/Roboto-Light.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-display: block;
+    src: url("../fonts/roboto/Roboto-Bold.woff") format("woff"),
+        url("../fonts/roboto/Roboto-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-display: block;
+    src: url("../fonts/lato/Lato-Medium.woff") format("woff"),
+        url("../fonts/lato/Lato-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("../fonts/lato/Lato-Regular.woff") format("woff"),
+        url("../fonts/lato/Lato-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-display: block;
+    src: url("../fonts/lato/Lato-Bold.woff") format("woff"),
+        url("../fonts/lato/Lato-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-display: block;
+    src: url("../fonts/lato/Lato-Semibold.woff") format("woff"),
+        url("../fonts/lato/Lato-Semibold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url("../fonts/lato/Lato-Black.woff") format("woff"),
+        url("../fonts/lato/Lato-Black.woff2") format("woff2");
+}

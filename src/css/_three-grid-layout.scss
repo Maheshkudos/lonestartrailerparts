@@ -1,0 +1,77 @@
+.loaction-section {
+    &.grid-variation2 {
+        @apply flex flex-wrap justify-center gap-x-69 -ml-15 -mr-15 lg:gap-x-48 lg:m-0 mx:gap-x-25 mx:gap-y-35;
+        .icon-parts {
+            @apply text-center;
+            width: calc(30% - 8px);
+            @media (max-width: 1199px) {
+                width: calc(30% - 3px);
+            }
+            @media (max-width: 991px) {
+                width: calc(50% - 15px);
+            }
+            @media (max-width: 576px) {
+                width: 100%;
+            }
+        }
+        .icon-img {
+            @apply mb-35 mx:mb-25 md:mb-15;
+            img {
+                @apply mx-auto w-86 md:w-65;
+            }
+        }
+        .heading-title {
+            @apply uppercase font-black mb-20 mx:mb-10;
+        }
+        .icon-title {
+            @apply text-19 font-semibold;
+        }
+    }
+    &.grid-variation1 {
+        @apply flex flex-wrap gap-x-54 lx:gap-40 lg:gap-25;
+        .loc-parts {
+            @apply bg-white overflow-hidden flex flex-col h-full;
+            width: calc(33% - 33px);
+            border-radius: 15px;
+            box-shadow: 0px 0px 20.77px 10.23px rgba(0, 2, 7, 0.02);
+            @media (max-width: 1199px) {
+                width: calc(30% - 3px);
+            }
+            @media (max-width: 991px) {
+                width: calc(50% - 15px);
+            }
+            @media (max-width: 576px) {
+                width: 100%;
+            }
+            img {
+                @apply w-full h-full object-cover;
+            }
+            .location-image {
+                max-height: 265px;
+                height: 265px;
+                @media (max-width: 767px) {
+                    height: 225px;
+                    max-height: 225px;
+                }
+            }
+            .location-info {
+                @apply py-30 px-20;
+                .title {
+                    @apply mb-20 hover:text-air-force-blue;
+                }
+            }
+            .location-btn {
+                @apply flex items-center gap-10;
+                i,em {
+                    @apply text-19 mx:text-16;
+                }
+                a {
+                    @apply text-black hover:text-air-force-blue;
+                }
+            }
+        }
+    }
+}
+.hr-line-sm {
+    @apply flex justify-center w-70 h-4 bg-bright-red mx-auto my-15;
+}

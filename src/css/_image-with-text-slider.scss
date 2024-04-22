@@ -1,0 +1,88 @@
+.content-along-side-slider {
+    @apply  bg-cover  py-125 lg:py-80 mx:py-65;
+    background-position: center 54%;
+    .content-slider-item {
+        @apply gap-x-65 lg:gap-x-40 mx:gap-y-40 mx:flex-wrap mx:flex-col-reverse mx:pt-30 md:pb-50 md:pt-0 md:gap-y-25;
+        display: flex !important;
+        .cl-left {
+            flex: 455px 0 0;
+            @media (max-width: 1199px) {
+                flex: 1 0 0;
+                @apply pr-10;
+            }
+            @media (max-width: 991px) {
+                flex: unset;
+            }
+        }
+        .cl-right {
+            flex: 1 0 0;
+            @media (max-width: 991px) {
+                flex: unset;
+                max-width: 100%;
+                margin: 0 auto;
+                width: 100%;
+            }
+           
+            img {
+                @apply h-full  w-full object-cover;
+            }
+        }
+        .content-details-list {
+            @apply m-0;
+        }
+        .content-lists {
+            @apply relative font-light border-b-1  border-white pt-25 pb-28 m-0 flex items-center pl-30 lg:py-20;
+            &::before {
+                content: '';
+                background-image: url('https://lonestartrailerparts.fastlinestaging.com/wp-content/uploads/2024/04/tringle-right-dot.png');
+                @apply absolute left-0 w-20 h-35 bg-no-repeat   mxl:w-20 mxl:h-32;
+                background-size: 17px;
+
+                @screen lg{
+                    background-size: 15px; 
+                }
+
+            }
+            &:first-child {
+                @apply pt-10;
+            }
+            &:last-child {
+                @apply border-none pb-0;
+            }
+        }
+    }
+    .custom-slider-arrows {
+        @apply absolute flex items-center h-full gap-12 -right-170 top-0;
+        z-index: 1;
+        @media (max-width: 1530px) {
+            @apply -top-70 left-auto right-15 items-start;
+        }
+        @media (max-width: 1199px) {
+            @apply -top-60 h-auto;
+        }
+        @media (max-width: 991px) {
+            @apply -top-45;
+        }
+        @media (max-width: 767px) {
+            @apply top-auto -bottom-25 w-full justify-center right-0;
+        }
+        .arrow-btn {
+            @apply w-65 h-65 transition-all duration-300 lg:w-45 lg:h-45 hover:opacity-60;
+            @media (max-width: 1530px) {
+                width: 50px;
+                height: 50px;
+            }
+            &.disabled{
+                @apply opacity-60;
+            }
+        }
+        .prev-btn {
+            @apply bg-no-repeat bg-contain;
+            background-image: url('../img/left-round-arrow.png');
+        }
+        .next-btn {
+            @apply bg-no-repeat bg-contain;
+            background-image: url('../img/right-round-arrow.png');
+        }
+    }
+}

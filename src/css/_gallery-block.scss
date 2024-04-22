@@ -1,0 +1,18 @@
+.gallery-block {
+    .gallery-grid-layout {
+        @apply my-8;
+        .gallery-images {
+            max-height: 350px;
+            min-height: 350px;
+
+            @media (max-width: 1199px) {
+                max-height: 250px;
+                min-height: 250px;
+            }
+
+            img {
+                @apply w-full h-full object-cover;
+            }
+        }
+    }
+}

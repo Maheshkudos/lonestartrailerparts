@@ -1,0 +1,772 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LoneStar Trailer Fastline</title>
+    <link href="../dist/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="top-bar relative bg-bright-red">
+            <div class="container">
+                <div class="header-top flex items-center">
+                    <div class="cl-left">
+                        <ul class="flex">
+                            <li>
+                                <a href="javascript:void()">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <span>Lone Star Trailer Parts (903) 572-3674</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void()">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <span>Main Office (903) 572-0288</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cl-right">
+                        <ul class="flex items-center top-rft-side">
+                            <li>
+                                <a href="/">
+                                    <span>Become a Dealer</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <span>Dealer Tools</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <span>Trailer Options</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-header bg-light-white">
+            <div class="container">
+                <div class="header-row flex flex-wrap justify-between">
+                    <div class="header-left">
+                        <div class="site-logo">
+                            <a href="/">
+                                <img src="../dist/img/logo.png" alt="" title="" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header-right">
+                        <div class="cl-right">
+                            <div class="responsive-block-menu">
+                                <div class="mobile-navigation-icon" id="mobile-menu-trigger">
+                                    <i></i>
+                                </div>
+                                <!--====================  mobile menu overlay ====================-->
+                                <div class="mobile-menu-overlay" id="mobile-menu-overlay">
+                                    <div class="mobile-menu-overlay__inner">
+                                        <div class="mobile-menu-overlay__header">
+                                            <div class="mobile-menu-content text-right">
+                                                <span class="mobile-navigation-close-icon"
+                                                    id="mobile-menu-close-trigger"></span>
+                                            </div>
+                                        </div>
+                                        <div class="mobile-menu-overlay__body">
+                                            <nav class="offcanvas-navigation">
+                                                <div class="menu-main-navigation-container">
+                                                    <ul id="primary-menu" class="site-navigation menu">
+                                                        <li class="menu-item current_page_item">
+                                                            <a href="#">Home</a>
+                                                        </li>
+                                                        <li class="menu-item menu-item-has-children">
+                                                            <a href="#">About</a>
+                                                            <ul class="sub-menu">
+                                                                <li class="menu-item">
+                                                                    <a href="#">About One</a>
+                                                                </li>
+                                                                <li class="menu-item">
+                                                                    <a href="#">About Two</a>
+                                                                </li>
+                                                                <li class="menu-item">
+                                                                    <a href="#">About Three</a>
+                                                                </li>
+                                                                <li class="menu-item">
+                                                                    <a href="#">About Four</a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="menu-item menu-item-has-children">
+                                                            <a href="#">Services</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="#">Contact</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--====================  End of mobile menu overlay  ====================-->
+                            </div>
+                            <nav id="site-navigation" class="main-navigation">
+                                <div class="menu-main-navigation-container">
+                                    <ul id="primary-menu" class="menu">
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                                            <a href="#">Trailer Parts</a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item">
+                                                    <a href="#">About One</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">About Two</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">About Three</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">About Four</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                                            <a href="#">About Us</a>
+                                        </li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                                            <a href="#">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="search-filter-header bg-air-force-blue  md:hidden">
+                            <div class="search-form-inside mxl:pl-20">
+                                <div
+                                    class="filder-drop flex items-center justify-end py-15 gap-10 mxl:flex-wrap mxl:justify-end">
+                                    <div class="filter-select">
+                                        <select>
+                                            <option value="1">New Inventory</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                        </select>
+                                    </div>
+                                    <div class="filter-select">
+                                        <select>
+                                            <option value="1">old inventory</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                        </select>
+                                    </div>
+                                    <div class="filter-select">
+                                        <select>
+                                            <option value="1">categories</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                        </select>
+                                    </div>
+                                    <div class="submit-search">
+                                        <button class="search-btn">search</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-site site-main">
+        <div class="container">
+            <section class="full-width-layout site-banner lg-banner">
+                <div class="search-filter-header bg-air-force-blue  hidden md:block">
+                    <div class="search-form-inside px-20">
+                        <div
+                            class="filder-drop flex items-center justify-end py-15 gap-10 mxl:flex-wrap mxl:justify-end">
+                            <div class="filter-select">
+                                <select>
+                                    <option value="1">New Inventory</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            </div>
+                            <div class="filter-select">
+                                <select>
+                                    <option value="1">old inventory</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            </div>
+                            <div class="filter-select">
+                                <select>
+                                    <option value="1">categories</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            </div>
+                            <div class="submit-search">
+                                <button class="search-btn">search</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick-banner-slider">
+                    <div class="banner-img bg-no-repeat bg-cover" style="background-image: url(../src/img/banner.jpg);">
+                        <div class="container">
+                            <div class="banner-info relative">
+                                <div class="info-text flex mb-48 xl:mb-30 md:mb-20">
+                                    <div class="tag-item flex items-center gap-13">
+                                        <span
+                                            class="tag-icon-round rounded-full w-20 h-20 flex items-center justify-center bg-white"></span>
+                                        <p class="tag-title">Lone Star Trailer Parts</p>
+                                    </div>
+                                </div>
+                                <h1 class="page-title">LOOKING FOR TRAILER PARTS? <br />
+                                    LOOK NO FURTHER THAN LONE STAR</h1>
+                                <div class="banner-desc">
+                                    <span><a href="/">Call Us Today | 1.888.123.4566</a>
+                                    </span>
+                                </div>
+                                <div class="banner-btn">
+                                    <a href="/" class="site-btn outline-btn">
+                                        <span>Our Specials</span>
+                                    </a>
+                                    <a class="site-btn btn-bright-red" href="/">
+                                        <span>Our Inventory of Parts</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-img bg-no-repeat bg-cover"
+                        style="background-image: url(../src/img/banner-img-two.jpg);">
+                        <div class="container">
+                            <div class="banner-info relative">
+                                <div class="info-text flex mb-48 xl:mb-30 md:mb-20">
+                                    <div class="tag-item flex items-center gap-13">
+                                        <span
+                                            class="tag-icon-round rounded-full w-20 h-20 flex items-center justify-center bg-white"></span>
+                                        <p class="tag-title">Lone Star Trailer Parts</p>
+                                    </div>
+                                </div>
+                                <h1 class="page-title">LOOKING FOR TRAILER PARTS? <br />
+                                    LOOK NO FURTHER THAN LONE STAR</h1>
+                                <div class="banner-desc">
+                                    <span><a href="/">Call Us Today | 1.888.123.4566</a>
+                                    </span>
+                                </div>
+                                <div class="banner-btn">
+                                    <a href="/" class="site-btn outline-btn">
+                                        <span>Our Specials</span>
+                                    </a>
+                                    <a class="site-btn btn-bright-red" href="/">
+                                        <span>Our Inventory of Parts</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-img bg-no-repeat bg-cover"
+                        style="background-image: url(../src/img/banner-img-three.jpg);">
+                        <div class="container">
+                            <div class="banner-info relative">
+                                <div class="info-text flex mb-48 xl:mb-30 md:mb-20">
+                                    <div class="tag-item flex items-center gap-13">
+                                        <span
+                                            class="tag-icon-round rounded-full w-20 h-20 flex items-center justify-center bg-white"></span>
+                                        <p class="tag-title">Lone Star Trailer Parts</p>
+                                    </div>
+                                </div>
+                                <h1 class="page-title">LOOKING FOR TRAILER PARTS? <br />
+                                    LOOK NO FURTHER THAN LONE STAR</h1>
+                                <div class="banner-desc">
+                                    <span><a href="/">Call Us Today | 1.888.123.4566</a>
+                                    </span>
+                                </div>
+                                <div class="banner-btn">
+                                    <a href="/" class="site-btn outline-btn">
+                                        <span>Our Specials</span>
+                                    </a>
+                                    <a class="site-btn btn-bright-red" href="/">
+                                        <span>Our Inventory of Parts</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-img bg-no-repeat bg-cover"
+                        style="background-image: url(../src/img/banner-img-four.jpg);">
+                        <div class="container">
+                            <div class="banner-info relative">
+                                <div class="info-text flex mb-48 xl:mb-30 md:mb-20">
+                                    <div class="tag-item flex items-center gap-13">
+                                        <span
+                                            class="tag-icon-round rounded-full w-20 h-20 flex items-center justify-center bg-white"></span>
+                                        <p class="tag-title">Lone Star Trailer Parts</p>
+                                    </div>
+                                </div>
+                                <h1 class="page-title">LOOKING FOR TRAILER PARTS? <br />
+                                    LOOK NO FURTHER THAN LONE STAR</h1>
+                                <div class="banner-desc">
+                                    <span><a href="/">Call Us Today | 1.888.123.4566</a>
+                                    </span>
+                                </div>
+                                <div class="banner-btn">
+                                    <a href="/" class="site-btn outline-btn">
+                                        <span>Our Specials</span>
+                                    </a>
+                                    <a class="site-btn btn-bright-red" href="/">
+                                        <span>Our Inventory of Parts</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <div class="space-125"></div>
+            <section class="full-width-layout trailer-block line-pattern">
+                <div class="container">
+                    <div class="info-text flex justify-center mb-30 md:mb-15">
+                        <div class="tag-item flex items-center gap-13">
+                            <span
+                                class="tag-icon-round rounded-full w-20 h-20 flex items-center justify-center bg-white"></span>
+                            <p class="tag-title">View Our Huge Selection</p>
+                        </div>
+                    </div>
+                    <div class="trailer-content-block text-center mb-100 xl:mb-85 lg:mb-60 sm:mb-45">
+                        <h2 class="heading-title">Trailer Parts</h2>
+                        <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacinia
+                            finibus nisi, vel
+                            facilisis odio ultricies at. Lorem ipsum dolor sit amet.
+                        </p>
+                        <div class="trailer-select-field">
+                            <div class="category-field">
+                                <select name="" id="">
+                                    <option value="">View Categories</option>
+                                </select>
+                                <select name="" id="">
+                                    <option value="">View Parts</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trailer-grid-layout flex gap-54 lx:gap-40 lg:gap-25 flex-wrap">
+                        <div class="trailer-col text-center">
+                            <div class="trailer-item-content pt-45 mx:pt-30">
+                                <div class="sub-title mb-20 mx:mb-10 font-fs-lt font-semibold">Name Goe Right Here</div>
+                                <h3 class="heading-title mb-20 uppercase font-black">Title Goe Here</h3>
+                            </div>
+                            <div class="image-item">
+                                <img src="https://lonestartrailerparts.fastlinestaging.com/wp-content/uploads/2024/04/Lonestar-scaled.jpg"
+                                    alt="">
+                            </div>
+                            <div class="trailer-size-item">
+                                <span class="size-title">5x8LD</span>
+                                <span class="size-title">5x10LD</span>
+                                <span class="size-title">6x10LD</span>
+                                <span class="size-title">6x12LD</span>
+                            </div>
+                            <div class="view-details">
+                                <a href="#" class="site-btn btn-air-force-blue btn-view">View more details</a>
+                            </div>
+                        </div>
+                        <div class="trailer-col text-center">
+                            <div class="trailer-item-content pt-45 mx:pt-30">
+                                <div class="sub-title mb-20 mx:mb-10 font-fs-lt font-semibold">Name Goe Right Here</div>
+                                <h3 class="heading-title mb-20 uppercase font-black">Title Goe Here</h3>
+                            </div>
+                            <div class="image-item">
+                                <img src="https://lonestartrailerparts.fastlinestaging.com/wp-content/uploads/2024/04/Lonestar-scaled.jpg"
+                                    alt="">
+                            </div>
+                            <div class="trailer-size-item">
+                                <span class="size-title">5x8LD</span>
+                                <span class="size-title">5x10LD</span>
+                                <span class="size-title">6x10LD</span>
+                                <span class="size-title">6x12LD</span>
+                            </div>
+                            <div class="view-details">
+                                <a href="#" class="site-btn btn-air-force-blue btn-view">View more details</a>
+                            </div>
+                        </div>
+                        <div class="trailer-col text-center">
+                            <div class="trailer-item-content pt-45 mx:pt-30">
+                                <div class="sub-title mb-20 mx:mb-10 font-fs-lt font-semibold">Name Goe Right Here</div>
+                                <h3 class="heading-title mb-20 uppercase font-black">Title Goe Here</h3>
+                            </div>
+                            <div class="image-item">
+                                <img src="https://lonestartrailerparts.fastlinestaging.com/wp-content/uploads/2024/04/Lonestar-scaled.jpg"
+                                    alt="">
+                            </div>
+                            <div class="trailer-size-item">
+                                <span class="size-title">5x8LD</span>
+                                <span class="size-title">5x10LD</span>
+                                <span class="size-title">6x10LD</span>
+                                <span class="size-title">6x12LD</span>
+                            </div>
+                            <div class="view-details">
+                                <a href="#" class="site-btn btn-air-force-blue btn-view">View more details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section
+                class="full-width-layout why-choose-block  py-125 lg:py-80 mx:py-65 bg-[url('../img/why-choose-bg.jpg')] bg-no-repeat bg-cover bg-center">
+                <div class="container">
+                    <div class="block-inner-detail relative z-10">
+                        <div class="grid grid-cols-2 mx:grid-cols-1 gap-50 mb-95 mxl:gap-30 mxl:mb-50 items-end">
+                            <div class="cl-left">
+                                <div class="info-text flex sm:justify-center mb-37 lg:mb-15">
+                                    <div class="tag-item flex items-center gap-13">
+                                        <span
+                                            class="tag-icon-round rounded-full w-20 h-20 flex items-center justify-center bg-white"></span>
+                                        <p class="tag-title">Lone Star Trailer Parts</p>
+                                    </div>
+                                </div>
+                                <div class="block-inner-content pr-15 sm:text-center">
+                                    <h2 class="heading-title text-white mb-40 mxl:mb-20 ">Why Choose
+                                        Lone Star Trailer Parts</h2>
+                                    <p class="text-28 mxl:text-22 md:text-20 text-white mb-10">Lorem ipsum dolor sit
+                                        amet, consectetur adipiscing elit. Nam mattis, turpis vitae laoreet
+                                        pellentesque, elit ipsum volutpat ante, sagittis hendrerit ante.</p>
+                                    <p class="text-white">Sed sit amet dictum tortor, ut blandit risus. Nullam commodo
+                                        bibendum orci quis condimentum. Duis efficitur molestie quam, sit amet ultrices
+                                        felis semper id. Pellentesque ut libero quis turpis porttitor viverra.
+                                        Suspendisse pretium.</p>
+                                </div>
+                            </div>
+                            <div class="cl-right">
+                                <div
+                                    class="icon-list grid grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-y-60 mxl:gap-y-30 mxl:gap-x-20 gap-x-25">
+                                    <div class="icon-list-box flex flex-col sm:items-center">
+                                        <div class="icon-img mb-30 mxl:mb-10">
+                                            <img src="../src/img/clipboard.png">
+                                        </div>
+                                        <div class="h6 text-17 uppercase text-white mb-20 mxl:mb-10">Lorem ipsum </div>
+                                        <p class="text-14 text-white sm:text-center">dolor sit amet, consectetur
+                                            adipiscing eli uspendisse. </p>
+                                    </div>
+                                    <div class="icon-list-box flex flex-col sm:items-center">
+                                        <div class="icon-img mb-30 mxl:mb-10">
+                                            <img src="../src/img/shield.png">
+                                        </div>
+                                        <div class="h6 text-17 uppercase text-white mb-20 mxl:mb-10">Lorem ipsum </div>
+                                        <p class="text-14 text-white sm:text-center">dolor sit amet, consectetur
+                                            adipiscing eli uspendisse. </p>
+                                    </div>
+                                    <div class="icon-list-box flex flex-col sm:items-center">
+                                        <div class="icon-img mb-30 mxl:mb-10">
+                                            <img src="../src/img/service.png">
+                                        </div>
+                                        <div class="h6 text-17 uppercase text-white mb-20 mxl:mb-10">Lorem ipsum </div>
+                                        <p class="text-14 text-white sm:text-center">dolor sit amet, consectetur
+                                            adipiscing eli uspendisse. </p>
+                                    </div>
+                                    <div class="icon-list-box flex flex-col sm:items-center">
+                                        <div class="icon-img mb-30 mxl:mb-10">
+                                            <img src="../src/img/support.png">
+                                        </div>
+                                        <div class="h6 text-17 uppercase text-white mb-20 mxl:mb-10">Lorem ipsum </div>
+                                        <p class="text-14 text-white sm:text-center">dolor sit amet, consectetur
+                                            adipiscing eli uspendisse. </p>
+                                    </div>
+                                    <div class="icon-list-box flex flex-col sm:items-center">
+                                        <div class="icon-img mb-30 mxl:mb-10">
+                                            <img src="../src/img/repair.png">
+                                        </div>
+                                        <div class="h6 text-17 uppercase text-white mb-20 mxl:mb-10">Lorem ipsum </div>
+                                        <p class="text-14 text-white sm:text-center">dolor sit amet, consectetur
+                                            adipiscing eli uspendisse. </p>
+                                    </div>
+                                    <div class="icon-list-box flex flex-col sm:items-center">
+                                        <div class="icon-img mb-30 mxl:mb-10">
+                                            <img src="../src/img/chat.png">
+                                        </div>
+                                        <div class="h6 text-17 uppercase text-white mb-20 mxl:mb-10">Lorem ipsum </div>
+                                        <p class="text-14 text-white sm:text-center">dolor sit amet, consectetur
+                                            adipiscing eli uspendisse. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-btn flex justify-center gap-15 sm:flex-col sm:items-center">
+                            <a href="/" class="site-btn outline-btn" tabindex="0">
+                                <span>About Us</span>
+                            </a>
+                            <a class="site-btn btn-bright-red" href="/" tabindex="0">
+                                <span>Our inventory</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="space-125"></div>
+            <section class="full-width-layout slider-logo-block bg-white pb-125 lg:pb-80 mx:pb-65">
+                <div class="container">
+                    <div class="relative z-10">
+                        <div class="info-text flex justify-center mb-30 lg:mb-15">
+                            <div class="tag-item flex items-center gap-13">
+                                <span
+                                    class="tag-icon-round rounded-full w-20 h-20 flex items-center justify-center bg-white"></span>
+                                <p class="tag-title">Title Goes Here</p>
+                            </div>
+                        </div>
+                        <div class="slider-inner-content text-center mb-115 lg:mb-80 mx:mb-65">
+                            <h2 class="heading-title mb-35 mxl:mb-20">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit.</h2>
+                            <p class="text-28  mxl:text-22 md:text-20  mb-10">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Suspendisse ornare orci eros. Nam sit amet mattis sem, vel eleifend
+                                arcu. Donec elementum non mi ut egestas.</p>
+                            <p class=" ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ornare
+                                orci eros. Nam sit amet mattis sem, vel eleifend arcu. Donec elementum non mi ut
+                                egestas. Curabitur lectus erat, posuere et dui at, dignissim scelerisque nunc. Fusce
+                                euismod dolor in arcu faucibus, sed elementum leo gravida. Sed sed turpis id ipsum
+                                ultrices consequat vitae ac sapien. Ut vel ex lacus. Sed vitae elementum turpis, at
+                                convallis tellus. Praesent a justo justo.</p>
+                        </div>
+
+                        <div class="logo-slider flex items-center justify-center">
+                            <div class="logo-slide-inner">
+                                <div class="logo-img">
+                                    <img src="../src/img/dexter.png">
+                                </div>
+                            </div>
+                            <div class="logo-slide-inner">
+                                <div class="logo-img">
+                                    <img src="../src/img/ales.png">
+                                </div>
+                            </div>
+                            <div class="logo-slide-inner">
+                                <div class="logo-img">
+                                    <img src="../src/img/lippert.png">
+                                </div>
+                            </div>
+                            <div class="logo-slide-inner">
+                                <div class="logo-img">
+                                    <img src="../src/img/lionshead.png">
+                                </div>
+                            </div>
+                            <div class="logo-slide-inner">
+                                <div class="logo-img">
+                                    <img src="../src/img/taskmaster.png">
+                                </div>
+                            </div>
+                            <div class="logo-slide-inner">
+                                <div class="logo-img">
+                                    <img src="../src/img/dexter.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="gallery-block full-width-layout">
+                <div class="gallery-grid-layout grid grid-cols-3 gap-8 mx:grid-cols-2 sm:grid-cols-1">
+                    <div class="gallery-images">
+                        <img src="../src/img/banner.jpg" alt="">
+                    </div>
+                    <div class="gallery-images">
+                        <img src="../src/img/banner.jpg" alt="">
+                    </div>
+                    <div class="gallery-images">
+                        <img src="../src/img/banner.jpg" alt="">
+                    </div>
+                    <div class="gallery-images">
+                        <img src="../src/img/banner.jpg" alt="">
+                    </div>
+                    <div class="gallery-images">
+                        <img src="../src/img/banner.jpg" alt="">
+                    </div>
+                    <div class="gallery-images">
+                        <img src="../src/img/banner.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-main bg-air-force-blue pt-130 pb-90 xl:pt-100 xl:pb-70 mx:pt-70 mx:pb-50 md:py-50">
+            <div class="container">
+                <div class="logo">
+                    <img src="img/footer-logo.png" alt="">
+                </div>
+                <div class="footer-top">
+                    <div class="cl-left">
+                        <div class="footer-content">
+                            <h4 class="footer-menu-title">Lone Star Trailer Parts</h4>
+                            <p class="address">1495 County Road 3320
+                                Mount Pleasant, TX
+                                (903) 572-0288</p>
+                            <ul class="social-icons">
+                                <li>
+                                    <a href="#">
+                                        <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                                        <svg width="19px" height="21px" viewBox="-3 0 262 262"
+                                            xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid">
+                                            <path
+                                                d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027"
+                                                fill="#4285F4" />
+                                            <path
+                                                d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1"
+                                                fill="#34A853" />
+                                            <path
+                                                d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782"
+                                                fill="#FBBC05" />
+                                            <path
+                                                d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251"
+                                                fill="#EB4335" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-content">
+                            <h4 class="footer-menu-title">Bragg Trailers – HQ</h4>
+                            <p class="address">1607 County Road 3320
+                                Mount Pleasant, TX
+                                903-572-3674</p>
+                            <ul class="social-icons">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg width="19px" height="21px" viewBox="-3 0 262 262"
+                                            xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid">
+                                            <path
+                                                d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027"
+                                                fill="#4285F4" />
+                                            <path
+                                                d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1"
+                                                fill="#34A853" />
+                                            <path
+                                                d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782"
+                                                fill="#FBBC05" />
+                                            <path
+                                                d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251"
+                                                fill="#EB4335" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-google"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-content">
+                            <h4 class="footer-menu-title">Bragg Trailers - Belton</h4>
+                            <p class="address">5431 B HWY 190 West
+                                Belton, TX
+                                (903) 572-0288</p>
+                            <ul class="social-icons">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg width="19px" height="21px" viewBox="-3 0 262 262"
+                                            xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid">
+                                            <path
+                                                d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027"
+                                                fill="#4285F4" />
+                                            <path
+                                                d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1"
+                                                fill="#34A853" />
+                                            <path
+                                                d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782"
+                                                fill="#FBBC05" />
+                                            <path
+                                                d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251"
+                                                fill="#EB4335" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-google"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-content">
+                            <h4 class="footer-menu-title">Bragg Trailers - Denton</h4>
+                            <p class="address">8451 W University Drive
+                                Denton, TX
+                                (903) 572-0288</p>
+                            <ul class="social-icons">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-google"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-google"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom py-42 xl:py-22 bg-bright-red">
+            <div class="container">
+                <div class="footer-links">
+                    <div class="cl-left-links md:text-center">
+                        <ul>
+                            <li>
+                                <span>© 2024 Lone Star Trailer Parts</span>
+                            </li>
+                            <li>
+                                <span>All Rights Reserved</span>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <span>Privacy Policy</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script type="text/javascript" src="../dist/js/scripts.js"></script>
+
+</html>

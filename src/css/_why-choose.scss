@@ -1,0 +1,24 @@
+.why-choose-block{
+	@apply relative after:content-[''] after:absolute after:bg-air-force-blue after:inset-0 after:w-full after:opacity-95;
+
+	.bottom-btn{
+
+		.site-btn{
+			@apply px-20 text-center;
+			width: 100%;
+			max-width: 251px;
+		}
+	}
+	.icon-list-box {
+		.icon-img {
+			img {
+				@apply w-74 h-74 object-contain mx:w-50 mx:h-50;
+			}
+		}
+	}
+	.block-inner-detail {
+		.cl-right {
+			@apply mt-77 lg:mt-50 mx:mt-0;
+		}
+	}
+}

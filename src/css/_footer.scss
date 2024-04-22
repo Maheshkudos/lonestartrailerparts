@@ -1,0 +1,109 @@
+footer {
+    .footer-main {
+        @apply relative;
+        .container {
+            @apply relative z-10;
+        }
+    }
+    .logo {
+        @apply mb-95 mx:mb-65 md:mb-45 text-center;
+        img {
+            max-width: 255px;
+            margin: 0 auto;
+            width: 100%;
+            @media (max-width: 1440px) {
+                max-width: 226px;
+            }
+            @media (max-width: 991px) {
+                max-width: 200px;
+            }
+            @media (max-width: 767px) {
+                max-width: 160px;
+            }
+        }
+        a {
+            @apply inline-block;
+        }
+    }
+    .footer-top {
+        .cl-left {
+            @apply flex mx:flex-wrap text-white gap-x-30 lg:gap-x-20 mx:gap-20 mx:gap-y-30;
+        }
+        .footer-content {
+            @apply text-center;
+            flex: 1 0 0;
+            @media (max-width: 991px) {
+                width: calc(50% - 11px);
+                flex: unset;
+            }
+            @media (max-width: 576px) {
+                width: 100%;
+            }
+        }
+        .footer-address-item {
+            @apply mb-20;
+            a {
+                @apply text-white block hover:text-bright-red font-fs-rt font-normal;
+            }
+        }
+        .address {
+            @apply block ;
+            max-width: 220px;
+            margin: 0 auto;
+            @media (max-width: 991px) {
+                max-width: 320px;
+                margin-bottom: 10px;
+            }
+        }
+        .footer-menu-title {
+            @apply text-white mb-18 mx:mb-10;
+        }
+        .social-icons {
+            @apply flex justify-center gap-12 items-center;
+            li {
+                @apply p-0;
+                img {
+                    @apply w-24 h-24 object-contain;
+                }
+                &:first-child {
+                    img {
+                        @apply h-22;
+                    }
+                }
+                a {
+                    @apply block hover:-mt-8 md:hover:mt-0;
+                }
+            }
+        }
+    }
+    .footer-bottom {
+        .cl-left-links {
+            ul {
+                @apply flex justify-center items-center mx:flex-wrap md:justify-center;
+                li {
+                    @apply flex text-19 text-white font-light md:text-16;
+                    a {
+                        @apply text-white hover:text-air-force-blue;
+                    }
+                    &::after {
+                        @apply pl-7 pr-10;
+                        content: "|";
+                    }
+                    &:last-child {
+                        &::after {
+                            content: none;
+                        }
+                    }
+                    span {
+                        @apply flex gap-x-7;
+                    }
+                }
+            }
+        }
+        ul {
+            li {
+                @apply p-0;
+            }
+        }
+    }
+}

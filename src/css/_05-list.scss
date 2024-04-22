@@ -1,0 +1,86 @@
+ul,
+ol {
+  @apply m-0 p-0 list-none;
+}
+
+dl {
+  @apply m-0;
+}
+
+dt {
+  @apply m-0 font-semibold;
+}
+
+dd {
+  @apply m-0;
+  margin: 0;
+}
+
+li::marker:not(ol li) {
+  display: none;
+  opacity: 0;
+  color: transparent;
+  font-size: 0;
+}
+
+ul {
+  li {
+    a {
+      @apply text-white hover:text-bright-red;
+    }
+  }
+}
+
+footer {
+  ul {
+    li {
+      @apply pb-15 last:pb-0;
+    }
+  }
+}
+
+.site-main {
+  ul {
+    @apply p-0 my-30 mx-0;
+    li {
+      @apply relative pl-25 mb-15 list-none last:mb-0;
+      // &:before {
+      //   @apply absolute left-0 top-0;
+      //   content: "\f178";
+      //   font-family: 'Font Awesome 6 Free Solid';
+      // }
+      a {
+        text-decoration: none;
+        @apply text-black hover:text-bright-red;
+      }
+      ul {
+        @apply p-0 mt-20 mb-30 mx-0;
+      }
+    }
+    ol{
+      @apply  list-decimal pl-20;
+      li{
+        @apply list-decimal p-0 after:hidden;
+      }
+    }
+  }
+  ol {
+    @apply list-decimal my-30 mx-0 p-0 pl-20;
+    li {
+      @apply relative pl-0 mb-15  last:mb-0;
+
+
+      a {
+        text-decoration: none;
+      }
+      ol {
+        @apply mt-20 mx-0 mb-30 pl-20;
+      }
+      ul{
+        li{
+          @apply pl-20;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.site-btn {
+    @apply relative inline-flex items-center justify-center transition-all text-18 text-white py-16 px-50 uppercase font-fs-lt rounded-15 font-bold xl:px-30 xl:py-14 xl:text-16 mx:text-14 md:py-12 md:px-25 xs:px-20 xl:rounded-12;
+    transition: all .3s ease-in-out;
+    &:hover {
+        @apply transition-all;
+    }
+    &.btn-air-force-blue {
+        @apply bg-air-force-blue text-white hover:bg-black;
+    }
+    &.btn-bright-red {
+        @apply  border-2 border-transparent bg-bright-red text-white hover:bg-black;
+    }
+    &.outline-btn {
+        @apply border-2 border-white hover:bg-white hover:text-black;
+    }
+}
+.btn-link {
+    @apply text-22 xl:text-19 hover:text-black;
+    transition: all .3s ease-in-out;
+    &:hover {
+        color: #000 !important;
+    }
+}

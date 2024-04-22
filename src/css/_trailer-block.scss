@@ -1,0 +1,136 @@
+.trailer-block {
+    @apply relative pb-125 lg:pb-80 mx:pb-65;
+    .trailer-content-block {
+        .heading-title {
+            @apply mb-35 lg:mb-25 md:mb-18 font-bold;
+        }
+        .sub-title {
+            max-width: 695px;
+            margin: 0 auto;
+        }
+    }
+    .trailer-select-field {
+        @apply mt-60 xl:mt-50 lg:mt-40 sm:mt-30;
+        .category-field {
+            @apply flex flex-wrap justify-center gap-x-19 sm:gap-15 flex-row-reverse;
+        }
+        select {
+            @apply py-15 pl-56 pr-60 xl:py-13 xl:pl-35 border-1 rounded-full uppercase cursor-pointer font-fs-lt font-black overflow-hidden;
+            max-width: 365px;
+            width: 365px;
+            background-size: 14px 10px;
+            background-position: calc(100% - 40px) center;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            @media (max-width: 1440px) {
+                max-width: 315px;
+                width: 315px;
+            }
+            @media (max-width: 991px) {
+                max-width: 285px;
+                width: 285px;
+                @apply text-16 pt-13 pb-10;
+            }
+            @media (max-width: 767px) {
+                max-width: 245px;
+                width: 245px;
+                background-size: 12px 8px;
+                background-position: calc(100% - 25px) center;
+                @apply pl-25;
+            }
+            @media (max-width: 576px) {
+                max-width: 300px;
+                width: 300px;
+            }
+            @screen xs{
+                max-width: 100%;
+                width: 100%;
+            }
+           
+        }
+    }
+}
+.trailer-grid-layout {
+    .trailer-col {
+        @apply bg-white overflow-hidden flex flex-col h-full;
+        width: calc(33% - 33px);
+        border-radius: 30px;
+        box-shadow: 0px 0px 20.77px 10.23px rgba(0, 2, 7, 0.02);
+        @media (max-width: 1350px) {
+            width: calc(33% - 24px);
+        }
+        @media (max-width: 1199px) {
+            width: calc(34% - 25px);
+        }
+        @media (max-width: 991px) {
+            width: calc(50% - 13px);
+        }
+        @media (max-width: 576px) {
+            width: 100%;
+        }
+        .image-item {
+            min-height: 290px;
+            height: 290px;
+            @media (max-width: 576px) {
+                min-height: 230px;
+                height: 230px;
+            }
+            img {
+                @apply w-full h-full object-cover;
+            }
+        }
+        .sub-title {
+            @apply text-19;
+        }
+        .heading-title{
+            @apply 2xl:text-30;
+        }
+        .trailer-size-item {
+            @apply py-19 px-10 mx:py-13 bg-gray-white;
+            .size-title {
+                @apply text-16 relative pr-15 inline font-light;
+                &::after {
+                    content: '';
+                    @apply absolute w-1 h-16 top-1 right-5 bg-gray;
+                    opacity: 0.34;
+                }
+                &:last-child {
+                    @apply pr-0;
+                    &::after {
+                        @apply hidden;
+                    }
+                }
+            }
+        }
+        .view-details {
+            @apply pt-34 pb-38 mx:pt-24 mx:pb-28 bg-white-smoke;
+            border-top: 1px solid #e0e0e0;
+            .btn-view {
+                @apply text-15 font-black px-34;
+                span {
+                    @apply relative block;
+                    &:after {
+                        content: '';
+                        @apply absolute h-1 w-full bottom-0 bg-white left-0;
+                    }
+                }
+            }
+        }
+    }
+    .trailer-item-content {
+        @apply px-15;
+    }
+}
+.line-pattern {
+    @apply relative;
+    &::before {
+        content: '';
+        opacity: 0.14;
+        background-position: center center;
+        @apply absolute w-full h-full top-0 right-0 bg-no-repeat bg-cover bg-[url('../img/pattern.jpg')];
+    }
+    .container {
+        @apply relative;
+        z-index: 1;
+    }
+}
